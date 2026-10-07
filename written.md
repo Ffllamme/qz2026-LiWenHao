@@ -20,6 +20,8 @@
  
 1.代码：
 
+'''python
+
     error = []
 
     for log in logs:
