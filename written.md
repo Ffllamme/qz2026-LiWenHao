@@ -20,9 +20,9 @@
  
 1.代码：
 
-error = []
+    error = []
 
-for log in logs:
+    for log in logs:
 
     if log["level"] == "ERROR":
     
@@ -32,9 +32,9 @@ print(error)
 
 2.
 
-amount= {}
+ amount= {}
 
-for i in logs: 
+ for i in logs: 
 
     name = i["user"]
     
@@ -46,7 +46,7 @@ for i in logs:
     
         amount[name] = 1
         
-print(amount)
+ print(amount)
 
 3.使用len只会告诉我字典里有多少条数据，但是不会对每个用户出现的次数进行统计
 
@@ -54,11 +54,11 @@ print(amount)
 
 代码：
 
- a = input("输入被除数")
+  a = input("输入被除数")
 
- b = input("输入除数")
+  b = input("输入除数")
 
- try:
+  try:
 
     a=int(a)
 
