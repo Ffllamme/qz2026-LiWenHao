@@ -20,6 +20,7 @@
  
 1.代码：
 
+```
 
     error = []
 
@@ -31,8 +32,11 @@
         
 print(error)
 
+```
+
 2.
 
+```
 
   amount= {}
 
@@ -50,11 +54,17 @@ print(error)
         
  print(amount)
 
+```
+
+
 3.使用len只会告诉我字典里有多少条数据，但是不会对每个用户出现的次数进行统计
 
 第3题
 
 代码：
+
+```
+
 
   a = input("输入被除数")
 
@@ -77,6 +87,8 @@ print(error)
  except( ZeroDivisionError  , ValueError):
 
      print("出错了")
+
+```
 
  原因：
 
