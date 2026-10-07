@@ -20,7 +20,6 @@
  
 1.代码：
 
-'''python
 
     error = []
 
@@ -34,7 +33,6 @@ print(error)
 
 2.
 
-'''python
 
   amount= {}
 
