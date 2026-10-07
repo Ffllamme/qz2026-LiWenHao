@@ -34,6 +34,8 @@ print(error)
 
 2.
 
+'''python
+
   amount= {}
 
  for i in logs: 
